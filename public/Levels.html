@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Step-By-Step Learning</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        font-family: serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+      }
+      .header {
+        background-color: #dcdcdc;
+        text-align: center;
+        padding: 15px;
+        font-size: 28px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+      }
+      .logo {
+        height: 7%;
+        width: 70px;
+      }
+      .menu-icon {
+        font-size: 24px;
+        cursor: pointer;
+      }
+      .section-title {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 22px;
+      }
+      .level-box {
+        background-color: #c0ff29;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+      }
+      .level-box p {
+        font-weight: normal;
+        margin-top: 10px;
+      }
+      .level-header {
+        background-color: lightgray;
+        padding: 8px;
+        border-radius: 5px;
+        display: inline-block;
+        font-weight: bold;
+      }
+      .back-button {
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        padding: 8px 20px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        display: block;
+        width: 80px;
+        text-align: center;
+        margin: 80px auto;
+      }
+      .row.equal-height {
+        display: flex;
+      }
+      .row.equal-height > [class*="col-"] {
+        display: flex;
+      }
+      .footer {
+        background-color: #dcdcdc;
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+        position: relative;
+        bottom: 10;
+        margin-top: 200px;
+      }
+
+      /* Custom navbar color */
+      .navbar-custom {
+        background-color: #d3d3d3; /* Dark background */
+      }
+
+      .navbar-custom .navbar-nav .nav-link {
+        color: #000000; /* White text color */
+        font-size: 15px;
+      }
+
+      .navbar-custom .navbar-nav .nav-link:hover {
+        color: #000000; /* Green color on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+      <div class="container-fluid">
+        <img
+          src="D:\Web miniproject - LAB\assets\Screenshot (36).png"
+          alt="Logo"
+          class="logo"
+        />
+        <a class="navbar-brand" href="#">Elegance Dance Academy</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="D:\Web miniproject - LAB\index.html"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="classes.html">CLASSES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="levels.html">LEVELS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+      <h2 class="section-title">Step - By - Step Learning For All Levels</h2>
+
+      <div class="row equal-height text-center my-4">
+        <div class="col-md-4 d-flex">
+          <div class="level-box w-100">
+            <div class="level-header">Brand New</div>
+            <p>Got two left feet? Start with our 10-day intro program.</p>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex">
+          <div class="level-box w-100">
+            <div class="level-header">Beginner</div>
+            <p>Got the basics down? Level up with new moves and routines.</p>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex">
+          <div class="level-box w-100">
+            <div class="level-header">Intermediate</div>
+            <p>
+              Feel pretty confident? Learn more challenging skills and pieces.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <a href="D:\Web miniproject - LAB\index.html" class="back-button">Back</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      &copy; 2024 Elegance Dance Academy. All Rights Reserved
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
